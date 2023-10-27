@@ -60,3 +60,35 @@ Find out if the points  are same or different (Hint : isEqual)
 Print the message accordingly. (print SAME or DIFFERENT)
 If points are not same , display distance between these 2 points.
 
+Java Assignment 04------------------------------------------------------------------------------------------------------------------------------------
+1 Continue with Box class n TestBox , from previous's code.
+Solve :  
+ Double box width for all boxes having volume > 100.(Can you use for-each & solve this) 
+
+
+2. Solve (can be solved in IDE)
+Continue with Day 2' Point2D class.
+
+2.1   Create a driver  class(for UI)  , in the "tester" package "TestPoints" , with main(..)
+
+1. Prompt user , how many points to plot? 
+Create suitable array. (Hint : array of references)
+
+
+
+2. Show following options
+
+Options
+1. Plot a point
+Inputs : array index , x  ,y
+Check boundary conditions  , check if some point is already plotted at the same index , if not then store the point details.
+In case of any errors , display suitable error message.
+
+2.   Display x,y co-ordinates of all the points plotted so far ,using for-each loop.
+
+3.   Accept 2 indices from user .
+Find out if the points at these indices are same or different (Hint : isEqual)
+Print the message accordingly. 
+If points are not same , display distance between these 2 points.
+(Draw mem diagram for your clarity, if needed/)
+
