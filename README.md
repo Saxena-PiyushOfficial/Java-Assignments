@@ -1,6 +1,6 @@
 # Java-Assignments
 
-Java Assignment 01------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java Assignment 01------------------------------------------------------------------------------------------------------------
 
 Solve (Hands on)
 
@@ -20,7 +20,7 @@ Accept 2 double values from User (using Scanner). Check data type.
 . If arguments are not doubles , supply suitable error message & terminate.
 If numbers are double values , print its average.
 
-Java Assignment 02-03-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java Assignment 02-03-----------------------------------------------------------------
 3.1 Solve Tank assignment.
 
 What will be the output?
@@ -60,7 +60,7 @@ Find out if the points  are same or different (Hint : isEqual)
 Print the message accordingly. (print SAME or DIFFERENT)
 If points are not same , display distance between these 2 points.
 
-Java Assignment 04------------------------------------------------------------------------------------------------------------------------------------
+Java Assignment 04-------------------------------------------------------------------
 4 Continue with Box class n TestBox , from previous's code.
 Solve :  
  4.1 Double box width for all boxes having volume > 100.(Can you use for-each & solve this) 
@@ -92,7 +92,7 @@ Print the message accordingly.
 If points are not same , display distance between these 2 points.
 (Draw mem diagram for your clarity, if needed/)
 
-Java Assignment05  -------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java Assignment05  ----------------------------------------------------------------------
 
 5. Read complete assignment n then only solve.
 
@@ -147,7 +147,7 @@ Invoke correct functionality (pulp / juice / jam)
 
 9. Exit
     
-Java Assignment06-07-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java Assignment06-07------------------------------------------------------------------------
 
 (Main objective :Run time polymorphism achieved using interfaces)
 Create Java application for fixed stack & growable stack based on Stack i/f , for storing customer details
