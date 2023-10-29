@@ -181,4 +181,12 @@ No inputs are required : pop customer details from the top of the stack
 
 5 -- Exit
 
- 
+ Java Assignment08-09-10------------------------------------------------------------------------------------
+8.1 Add speed Validation rule for a vehicle in which speed exceeding 100 will show overspeed errMsg and below 30 low speed errMsg.
+
+8.2Add another validation rule,  (in addition to speed checking) , in VehicleValidationRules class
+Check Driving license expiry
+I/p : License expiry date (in string form, using scanner)
+O/P : in case of success , Valid License OR throw custom exception with suitable err mesg .
+Now modify TestSpeed tester , to validate both rules
+
