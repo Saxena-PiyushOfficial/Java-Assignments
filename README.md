@@ -145,5 +145,40 @@ Hint : Use equals() method of the String class.
 i/p : index
 Invoke correct functionality (pulp / juice / jam)
 
-9. Exit 
+9. Exit
+    
+Java Assignment06-07-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+(Main objective :Run time polymorphism achieved using interfaces)
+Create Java application for fixed stack & growable stack based on Stack i/f , for storing customer details
+
+Customer has : id(int), name (string) , address(string)
+Provide suitable constructor n toString
+
+Steps
+6.1  Create Customer class
+6.2 Stack interface -- push & pop functionality for Customer refs. & declare STACK_SIZE as a constant. 
+6.3 Create implementation class of Stack i/f -- FixedStack (array based)
+6.4 Create another implementation class of Stack i/f-- GrowableStack (array based)
+
+6.5 
+Create Tester class ()
+Display Menu
+Note : Must use 1 switch-case only. You won't need any complex nested control structure
+Once user selects either fixed or growable stack , user shouldn't be allowed to change the selection of the stack.
+
+1 -- Choose Fixed Stack
+
+2 -- Choose Growable Stack
+
+3 -- Push data 
+I/P : Accept customer details & store these details in the earlier chosen stack or give error mesg : NO stack chosen !!!
+In case user has chosen fixed stack , n stack is full give err mesg. 
+In case of growable stack , should be able to save customer details w/o getting err.
+
+4 --- Pop data & display the same (from the earlier chosen stack or give error mesg : NO stack chosen !!!)
+No inputs are required : pop customer details from the top of the stack
+
+5 -- Exit
+
+ 
