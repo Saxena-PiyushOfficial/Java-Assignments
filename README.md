@@ -190,3 +190,61 @@ I/p : License expiry date (in string form, using scanner)
 O/P : in case of success , Valid License OR throw custom exception with suitable err mesg .
 Now modify TestSpeed tester , to validate both rules
 
+Java Assignment09-10-11-------------------------------------------------------------------------------------------
+9.1 Customer management system
+Supply Options
+1. Sign up (customer registration)
+2. Sign in (login)
+i/p : email n password
+3. Change password
+i/p : email n old password n new password
+4. Un subscribe customer
+i/p : customer email
+
+5. Display all customers.
+0. Exit 
+
+Design 
+Identify the core classes/enums involved
+1. Customer class (core class)
+state  : customer id(int) ,first name, last name (string),email(string),password(string),registrationAmount(double),dob(LocalDate),plan(ServicePlan : enum)
+idGenerator : static 
+Must generate customer ids automatically : auto increment)
+PK(UID) : email
+
+ctors 
+1. all args ctor
+2. PK based ctor
+
+Will you need to override toString n equals ?
+
+
+2. ServicePlan : enum
+ServicePlan charges : 
+SILVER : 1000 
+GOLD : 2000
+DIAMOND : 5000
+PLATINUM : 10000
+
+
+3. custom exception class
+
+4. validation rules
+4.1 no dup customers 
+(i.e if the customer tries to register using existing email , throw exception)
+
+4.2 Validate plan
+plan must be of supported types
+
+4.3 reg amount must match with the plan
+
+
+5. Tester, with UI, scanner
+Create a template as discussed and test the functionality
+
+9.2 Complete earlier Customer management assignment
+
+Add these options to Customer management system 
+Sort customer details as per email (use natural ordering)
+Sort customer details as per dob and last name (use custom ordering)
+Remove all those customer details whose subscription is pending for last 6 months?
